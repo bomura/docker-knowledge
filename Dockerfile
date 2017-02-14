@@ -1,6 +1,6 @@
 # Dockerfile for Knowledge
 
-FROM tomcat:jre8
+FROM tomcat:jre8-alpine
 
 # ==== dumb-init ====
 ADD https://github.com/Yelp/dumb-init/releases/download/v1.0.0/dumb-init_1.0.0_amd64 \
